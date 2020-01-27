@@ -17,6 +17,16 @@ public class Man {
         this.telephone = telephone;
     }
 
+    @Override
+    public String toString() {
+        return "Man{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", height=" + height +
+                ", weight=" + weight +
+                ", telephone='" + telephone + '\'' +
+                '}';
+    }
 // изначально man1.equals(man2): false, при переопределении методов equals и hashCode man1.equals(man2): true
 //    @Override
 //    public boolean equals(Object o) {

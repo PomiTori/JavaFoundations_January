@@ -13,7 +13,7 @@ public class ManArray {
         Man man4 = man3;
         Man man5 = new Man("Slava", 16, 177, 120,"346" );
 
-        Arrays[] manArray = new Arrays(){man1,man2,man3,man4,man5};
+        Man [] manArray = new Man[]{man1,man2,man3,man4,man5};
         System.out.println("Arrays.toString(manArray) = " + Arrays.toString(manArray));
     }
 }
